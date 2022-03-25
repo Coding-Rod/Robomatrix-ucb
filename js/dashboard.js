@@ -1,7 +1,6 @@
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
 
-console.log(params.category);
 const categories = {
   "animatronics": `https://docs.google.com/spreadsheets/d/e/2PACX-1vSmrpRwiI_jBK7ngUEJ-qVqCL4uZGeEqtQkYW9F_g-_4jC0V9-IkSBzjav4LcVKA95KhdnBjKnQqB8Y/pubhtml?gid=1154055729&amp;single=true&amp;widget=true&amp;headers=false`,
   "laberinto": `https://docs.google.com/spreadsheets/d/e/2PACX-1vSmrpRwiI_jBK7ngUEJ-qVqCL4uZGeEqtQkYW9F_g-_4jC0V9-IkSBzjav4LcVKA95KhdnBjKnQqB8Y/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false`,
